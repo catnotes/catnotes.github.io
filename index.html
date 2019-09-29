@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html ng-app="app">
+
+    <head>
+
+        <meta charset = "UTF-8" >
+        <title>Cat Notes</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+
+    <body>
+
+        <div class = "container" >
+        
+            <div class="navbar_wrapper">
+                <div class="navbar">
+                    <a href="/">Cat Notes</a>
+                    <a href="/#/about" class="right">Обо мне</a>
+                    <a href="/#/archive" class="right">Архив</a>
+                </div>
+            </div>
+        
+            <div class="main-content" ng-view></div>
+            
+        </div>
+
+        <script src = "js/jquery.js"        ></script>
+		<script src = "js/bootstrap.js"     ></script>
+		<script src = "js/angular.js"       ></script>
+		<script src = "js/angular-route.js" ></script>
+        <script src = "app/app.js"          ></script>
+		<script src = "app/controllers.js"  ></script>
+		<script src = "app/directives.js"   ></script>
+        
+    </body>
+
+</html>

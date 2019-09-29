@@ -1,0 +1,72 @@
+[
+	{
+		"title"   : "Создание Cat Notes",
+		"exerpt"  : "Пост посвящён созданию этой странички, начиная от идеи и заканчивая реализацией.",
+		"content" : "С чего начинается любой проект? Конечно с идеи. Идея создания CatNotes пришла ко мне постепенно. Сначала это были бумажные заметки, тогда я преследовал несколько целей. Во-первых, 'даже самый тупой карандаш лучше, чем самая острая память'. Идеи появляются внезапно и также внезапно вылетают из головы. Лучше их записывать, для последующего анализа. Во-вторых, 'Если хочешь что-то понять - объясни'. Я хочу научиться последовательно и грамотно излагать свои мысли, а когда пытаешься донести до кого-то информацию, стараешься делать это последовательно, целостно и логично. Так же я заметил, что моё окружение прислушивается к моим советам в том, что касается моей профессиональной деятельности. Поэтому я решил, что возможно некоторые мои заметки будут полезны и вам. Этот факт и мой возрастающий интерес к программированию в целом, а в частности к web - разработке, подтолкнули меня на создание небольшого блога. Я решил начать с самого простого: сверстать небольшую страничку в HTML и добавить немного эстетики при помощи CSS. Здесь возникло небольшое затруднение. Поскольку блог - это сайт с большим количеством страниц (постов), то для его наполнения можно воспользоваться, как минимум, двумя способами: верстать для каждого поста отдельную статическую страницу и везде вставлять ссылки на эти посты либо использовать серверную часть на Python или PHP, которая будет динамически создавать страницы для постов, а информация будет храниться в базе данных. Первый вариант не является оптимальным и сейчас никто не делает подобные сайты таким образом. Для реализации второго способа необходимо иметь сервер, на котором будет размещаться сайт и который будет обрабатывать запросы. Для размещения (хостинга) своего сайта я выбрал бесплатный сервис GitHub Pages. После того, как я узнал о его существовании, я решил что пора начать реализовывать свою идею о блоге. Сервис GitHub Pages позволяет размещать статические страницы. Статический сайт не подразумевает наличие серверной части, выполняемой на Python или PHP. Такой формат подходит тем, кому необходимо разместить в интернете информационную страницу, лендинг или портфолио. Эту проблему (отсутствие серверной части) я решил при помощи JavaScript. Используя готовый проект с открытым исходным кодом AngularJS, разработанный всем известной компанией Google, я настроил адресацию страниц и динамическую генерацию постов. Информация о посте (название, содержание, дата публикации и прочее) должна храниться в базе данных. Если такая опция по каким-либо причинам недоступна, можно использовать JSON (JavaScript Object Notation) файл, который содержит всю необходимую информацию. Так получился этот сайт. Однако JS не панацея, и создать полноценный гибкий веб - проект только с его помощью практически невозможно. Поэтому в будущем придётся перенести или переписать этот сайт. Из скриптовых языков программирования мне импонирует Python, поэтому скорее всего обновленная версия CatNotes с серверной частью будет написана на Django.",
+        "date"    : "29 сентября 2019",
+        "tags"    : "IT,blog"
+	},
+	{
+		"title"   : "GitHub Pages",
+		"exerpt"  : "Пост посвящен удобному сервису GitHub Pages. В нём я подробно расскажу что это такое, зачем он нужен и как его использовать.",
+		"content" : "Здесь я скоро подробно расскажу что это такое, зачем он нужен и как его использовать.",
+        "date"    : "20 июля 2019",
+        "tags"    : "IT,hosting"
+	},
+	{
+		"title"   : "Третий пост",
+		"exerpt"  : "Это пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti velit.",
+        "date"    : "21 августа 2019",
+        "tags"    : "test"
+	},
+	{
+		"title"   : "Четвертый пост",
+		"exerpt"  : "И ещё пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti veli  em ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti vet.",
+        "date"    : "22 сентября 2019",
+        "tags"    : "test"
+	},
+	{
+		"title"   : "Пятый пост",
+		"exerpt"  : "И ещё пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti veli  em ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti vet.",
+        "date"    : "22 сентября 2019",
+        "tags"    : "test"
+	},
+	{
+		"title"   : "Шестой пост",
+		"exerpt"  : "И ещё пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti veli  em ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti vet.",
+        "date"    : "22 сентября 2019",
+        "tags"    : "test"
+	},
+	{
+		"title"   : "Седьмой пост",
+		"exerpt"  : "И ещё пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti veli  em ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti vet.",
+        "date"    : "22 сентября 2019",
+        "tags"    : "test"
+	},
+	{
+		"title"   : "Восьмой пост",
+		"exerpt"  : "И ещё пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti veli  em ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti vet.",
+        "date"    : "22 сентября 2019",
+        "tags"    : "test"
+	},
+	{
+		"title"   : "Девятый пост",
+		"exerpt"  : "И ещё пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti veli  em ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti vet.",
+        "date"    : "22 сентября 2019",
+        "tags"    : "test"
+	},
+	{
+		"title"   : "Десятый пост",
+		"exerpt"  : "И ещё пробный пост",
+		"content" : "Lorem ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti veli  em ierit nemo nihil. Pariatur, accusantium animi itaque neque quam laudantium! Nulla distinctio eos, animi impedit, sed excepturi voluptatem, tempore odio natus odit voluptas deleniti vet.",
+        "date"    : "22 сентября 2019",
+        "tags"    : "test"
+	}
+]
